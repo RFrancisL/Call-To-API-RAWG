@@ -1,0 +1,13 @@
+.divDevelopTeamGlobal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team-name{
+    width: max-content;
+    font-size: 11px;
+    margin-top: 0%;
+    margin-right: 5px;
+    color:rgb(95, 95, 219)
+}

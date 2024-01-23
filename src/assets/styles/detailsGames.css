@@ -1,0 +1,100 @@
+/* detailsGames.css */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#carouselContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.divSemiGlobal {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 1000px;
+}
+
+.gameName {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bgImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.gameData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gameInfo {
+  color: #fff;
+  width: 50%;
+}
+
+.game-description{
+  color:#fff;
+}
+
+.gameInfo img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.gameInfo h3 {
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+
+.game-additions{
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.game-more{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game-more-links {
+  background: none;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 40%;
+  height: 100px;
+  margin: 5px 50px 20px 20px;
+  overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+.game-more-links:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.9);
+}
+
+.game-more-links-content {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5); /* Añadir un fondo para que la mezcla funcione */
+  background-blend-mode: multiply; /* Mezclar con el fondo del enlace */
+}
+
+.imageGames{
+  color: rgba(0, 0, 0, 0.9);
+  margin-right: 50px;
+  margin-left: -70px;
+  width: 100px;
+  transform: rotate(30deg);
+}

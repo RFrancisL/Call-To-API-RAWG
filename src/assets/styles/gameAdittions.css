@@ -1,0 +1,36 @@
+.div-semiglobal-additions{
+    margin: auto;
+    border: 1px solid;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    display: flex;
+    width: 1000px;
+    padding: 20px;
+}
+
+.div-data-additions{
+    color: #fff;
+    margin: 30px;
+    margin-top: 5px;
+}
+
+.image-additions{
+    border-radius: 20px;
+    width: 500px;
+}
+
+.expansionBtn{
+    background-color: #ffcc00;
+    color: #000;
+    padding: 5px 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.expansionBtn:hover{
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.9);
+}

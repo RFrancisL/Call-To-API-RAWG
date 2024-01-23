@@ -1,0 +1,40 @@
+.divGlobalGenere{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divCard{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 300px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.divCard:hover{
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.9);
+}
+
+.genere-image{
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%; 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+}
+
+.games-count{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.name-genere{
+    color: #fff;
+}

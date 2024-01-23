@@ -1,0 +1,25 @@
+.divGlobalAchiviement{
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divAchiviement{
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.divAchiviement:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.9);
+}
+

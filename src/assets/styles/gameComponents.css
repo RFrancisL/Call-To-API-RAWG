@@ -1,0 +1,25 @@
+.component-btn{
+    margin-top: 8px;
+    box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.component-btn:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+.btn-next{
+    margin-left: 250px;
+}
+
+.btn-next, .btn-prev{
+    width: 50px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.5);
+}
+
+.btn-next:hover, .btn-prev:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}

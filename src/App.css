@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    margin: 15px;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    color: #fff;
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    border: 1px;
+    border-radius: 20px;
+  }
+  
+  .footerTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: flex-start;
+  }
+  
+  .footerTitleD{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  .footerInfo {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: flex-start;
+  }
+  
+  .footerDiv{
+    margin:auto;
+  }
+  
+  .links {
+    margin-right: 10px;
+    color: lightgray;
+    text-decoration: none;
+  }
+  
+  .links:hover {
+    text-decoration: underline;
+  }
+  
+  .footeerDescription{
+    margin-top: 15px;
+    margin-right: 10%;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: flex-end;
+  }
+  
+  .description{
+    width: 700px;
+  }
+
+  .ul-app{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .ul-app:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.9);
+  }
